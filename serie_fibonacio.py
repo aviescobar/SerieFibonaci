@@ -6,3 +6,5 @@ def fibonacci(n):
   return fib_sequence[:n]
 
 # Ejemplo de uso 
+n = 10
+print("Primeros", n, "numeros de Fibonacci:", fibonacci(n))
